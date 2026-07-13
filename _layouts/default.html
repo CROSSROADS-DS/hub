@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.subtitle | escape }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="CROSSROADS home">
+          <span class="brand-name">{{ site.short_title }}</span>
+          <span class="brand-tagline">Data science across disciplines and communities</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/about/' | relative_url }}"{% if page.nav == 'about' %} aria-current="page"{% endif %}>About</a>
+          <a href="{{ '/modules/' | relative_url }}"{% if page.nav == 'modules' %} aria-current="page"{% endif %}>Modules</a>
+          <a href="{{ '/educators/' | relative_url }}"{% if page.nav == 'educators' %} aria-current="page"{% endif %}>Educators</a>
+          <a href="https://github.com/orgs/crossroads-ds/discussions">Forum</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p><strong>CROSSROADS</strong> supports inclusive, interdisciplinary, and applied data science education.</p>
+        <p>
+          <a href="https://github.com/crossroads-ds">GitHub organization</a>
+          <span aria-hidden="true"> · </span>
+          <a href="https://github.com/orgs/crossroads-ds/discussions">Forum</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

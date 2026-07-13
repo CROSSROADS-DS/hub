@@ -1,0 +1,18 @@
+title: CROSSROADS
+short_title: CROSSROADS
+subtitle: Collaborative data science education and real-world learning
+url: https://crossroads-ds.github.io
+baseurl: /hub
+repository: crossroads-ds/hub
+permalink: pretty
+markdown: kramdown
+
+exclude:
+  - README.md
+  - docs/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
