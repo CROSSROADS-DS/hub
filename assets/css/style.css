@@ -322,3 +322,38 @@ img {
     scroll-behavior: auto;
   }
 }
+
+/* Module catalog refinements */
+.module-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.launch-note {
+  margin-top: -0.25rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.module-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+
+.button-secondary {
+  color: var(--accent);
+  background: var(--surface);
+}
+
+.button-secondary:hover,
+.button-secondary:focus-visible {
+  color: var(--accent-dark);
+  border-color: var(--accent-dark);
+  background: var(--surface-soft);
+}
+
