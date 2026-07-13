@@ -15,21 +15,53 @@ description: Browse the public educational modules available through the CROSSRO
 <section class="page-section">
   <div class="container">
     <div class="module-grid">
-      <article class="module-card">
-        <span class="status">Pilot example</span>
-        <h2>Example 1</h2>
-        <p>A compact sample module used to validate the public module structure, publication workflow, documentation, and future notebook delivery.</p>
-        <p class="module-meta"><strong>Browser notebook:</strong> Planned for Stage 07</p>
-        <p><a class="button" href="https://github.com/crossroads-ds/example1">Open the repository</a></p>
-      </article>
+<article class="module-card">
+  <span class="status">Pilot example</span>
 
-      <article class="module-card">
-        <span class="status">Pilot example</span>
-        <h2>Example 2</h2>
-        <p>A second sample module used to confirm that the platform can support multiple independently maintained and published educational packages.</p>
-        <p class="module-meta"><strong>Browser notebook:</strong> Planned for Stage 07</p>
-        <p><a class="button" href="https://github.com/crossroads-ds/example2">Open the repository</a></p>
-      </article>
+  <h2>Example 1</h2>
+
+  <p>
+    A compact sample module used to validate the public module structure,
+    publication workflow, documentation, and browser-based notebook
+    execution.
+  </p>
+
+  <p class="module-meta">
+    <strong>Browser notebook:</strong> Available
+  </p>
+
+  <p>
+    <a class="button"
+       href="https://crossroads-ds.github.io/jupyterlite/lab/index.html?path=example1/example1.ipynb">
+       Run in Browser
+    </a>
+  </p>
+
+  <p>
+    <a href="https://github.com/crossroads-ds/example1">
+      Open the Repository
+    </a>
+  </p>
+<article class="module-card">
+  <span class="status">Pilot example</span>
+
+  <h2>Example 2</h2>
+
+  <p>
+    A second sample module used to confirm that the platform can support
+    multiple independently maintained and published educational packages.
+  </p>
+
+  <p class="module-meta">
+    <strong>Browser notebook:</strong> Coming soon
+  </p>
+
+  <p>
+    <a href="https://github.com/crossroads-ds/example2">
+      Open the Repository
+    </a>
+  </p>
+</article>
     </div>
 
     <div class="notice">
