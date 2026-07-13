@@ -15,7 +15,8 @@ description: Browse the public educational modules available through the CROSSRO
 <section class="page-section">
   <div class="container">
     <div class="module-grid">
-<article class="module-card">
+
+      <article class="module-card">
   <span class="status">Pilot example</span>
 
   <h2>Example 1</h2>
@@ -42,7 +43,10 @@ description: Browse the public educational modules available through the CROSSRO
       Open the Repository
     </a>
   </p>
-<article class="module-card">
+
+      </article>
+
+      <article class="module-card">
   <span class="status">Pilot example</span>
 
   <h2>Example 2</h2>
@@ -61,7 +65,9 @@ description: Browse the public educational modules available through the CROSSRO
       Open the Repository
     </a>
   </p>
-</article>
+
+      </article>
+
     </div>
 
     <div class="notice">
